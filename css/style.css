@@ -6,4 +6,26 @@ p {
 }
 nav {
   font-family: 'Josefin Sans', sans-serif;
+  display: inline-block;
+  color: gray;
+}
+nav ul li a:hover {
+  text-transform: uppercase;
+  color: darkcyan;
+}
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+/* //jumbotron// */
+.lead {
+  text-align: right;
+}
+.display-4 {
+  text-align: right;
+  margin-bottom: 2rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.25px;
+  -webkit-text-stroke-color: rgb(79, 79, 79);
+  font-weight: 400;
 }
