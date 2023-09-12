@@ -1,5 +1,13 @@
+html {
+  font-size: 100%;
+  font-kerning: auto; 
+}
+span {
+  font-size: 1.4em;
+}
 body {
   font-family: 'Josefin Sans', sans-serif;
+
 }
 p {
   font-weight: 100;
