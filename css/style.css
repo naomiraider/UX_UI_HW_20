@@ -1,19 +1,23 @@
+@font-face {
+  font-family: "Chloe";
+  src: url("/fonts/Chloe-Regular.otf") format("opentype");
+}
+
 html {
   font-size: 100%;
-  font-kerning: auto; 
+  font-kerning: auto;
 }
 span {
   font-size: 1.4em;
 }
 body {
-  font-family: 'Josefin Sans', sans-serif;
-
+  font-family: "Josefin Sans", sans-serif;
 }
 p {
   font-weight: 100;
 }
 nav {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   display: inline-block;
   color: gray;
 }
@@ -22,18 +26,30 @@ nav ul li a:hover {
   color: darkcyan;
 }
 h1 {
-  font-family: 'Abril Fatface', cursive;
-  text-align: center;
+  font-family: "Chloe", sans-serif;
+
 }
 /* //jumbotron// */
-.lead {
-  text-align: right;
+
+
+.Hi5-logo {
+  opacity: 30%;
+  scale: 0.15;
 }
-.display-4 {
-  text-align: right;
-  margin-bottom: 2rem;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1.25px;
-  -webkit-text-stroke-color: rgb(79, 79, 79);
-  font-weight: 400;
+#banner {
+  position: relative;
+
+}
+#banner::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  right: 0;
+  bottom: 1rem;
+  background-image: url("/images/HI5 BW LOGO@4x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 20%;
 }
