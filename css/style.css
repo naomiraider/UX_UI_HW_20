@@ -2,6 +2,10 @@
   font-family: "Chloe";
   src: url("/fonts/Chloe-Regular.otf") format("opentype");
 }
+@font-face {
+  font-family: "Magenta";
+  src: url("/fonts/Magenta-Demo-BF64d1ba62aef84.ttf") format("truetype");
+}
 
 html {
   font-size: 100%;
