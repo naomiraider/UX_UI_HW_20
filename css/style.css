@@ -29,20 +29,17 @@ nav ul li a:hover {
   text-transform: uppercase;
   color: darkcyan;
 }
-h1 {
+h1, h2 {
   font-family: "Chloe", sans-serif;
-
 }
 /* //jumbotron// */
 
-
 .Hi5-logo {
-  opacity: 30%;
+  opacity: 15%;
   scale: 0.15;
 }
 #banner {
   position: relative;
-
 }
 #banner::before {
   content: "";
@@ -56,4 +53,28 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   opacity: 20%;
+}
+#problem {
+  max-width: 2/3;
+  text-align: center;
+  background-color: white;
+}
+/* Carousel */
+.carousel-item {
+  position: relative;
+}
+.carousel-caption {
+  color: gray;
+}
+.carousel-indicators {
+  color: gray;
+}
+#carouselExampleCaptions {
+  color: gray;
+}
+#data-slide-to li {
+  color: gray;
+}
+.active {
+  color: gray;
 }
