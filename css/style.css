@@ -6,7 +6,10 @@
   font-family: "Magenta";
   src: url("/fonts/Magenta-Demo-BF64d1ba62aef84.ttf") format("truetype");
 }
-
+* {
+  margin: 0;
+  padding: 0;
+}
 html {
   font-size: 100%;
   font-kerning: auto;
@@ -26,13 +29,16 @@ nav {
   color: gray;
 }
 nav ul li a:hover {
-  text-transform: uppercase;
-  color: darkcyan;
+  color: forestgreen;
+  text-decoration: underline;
 }
-h1, h2 {
+h1 {
   font-family: "Chloe", sans-serif;
 }
-/* //jumbotron// */
+h2 {
+  font-weight: 700;
+}
+/* //jumbotron banner// */
 
 .Hi5-logo {
   opacity: 15%;
@@ -40,41 +46,66 @@ h1, h2 {
 }
 #banner {
   position: relative;
+  background-color: white;
 }
 #banner::before {
   content: "";
   position: absolute;
   left: 0;
   top: 1rem;
-  right: 0;
+  right: 4rem;
   bottom: 1rem;
   background-image: url("/images/HI5 BW LOGO@4x.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   opacity: 20%;
 }
 #problem {
-  max-width: 2/3;
+  text-align: center;
+  background-color: white;
+  align-items: center;
+ 
+}
+/*goal jumbotron*/
+#goals {
+  align-items: center;
   text-align: center;
   background-color: white;
 }
-/* Carousel */
-.carousel-item {
-  position: relative;
+.carousel {
+  color: gray !important;
+  width: 60%;
+  margin: 0 auto;
 }
 .carousel-caption {
-  color: gray;
+  color: black;
+  background-color: lightgray;
+  right: 0;
+  left: 0;
+  position: relative;
 }
 .carousel-indicators {
   color: gray;
 }
-#carouselExampleCaptions {
-  color: gray;
-}
+
 #data-slide-to li {
   color: gray;
 }
 .active {
   color: gray;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(50%);
+}
+.website {
+  border: gray 1px solid;
+  align-items: center;
+  width: 100%;
+}
+/* Process */
+.process {
+  max-width: 1fr;
+  align-items: center;
 }
